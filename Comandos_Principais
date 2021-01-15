@@ -1,0 +1,10 @@
+
+
+-- Formatação do campo data:
+
+SELECT CURRENT_DATE - INTERVAL 30 DAY
+
+SELECT DATE_FORMAT(SYSDATE(), '%D/%M/%Y') AS DATA;
+
+SELECT CURDATE();
+
